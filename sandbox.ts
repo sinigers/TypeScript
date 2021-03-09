@@ -1,11 +1,19 @@
-const character='luigi';
- console.log(character);
+let character='luigi';
+let age=30;
+let isBlackbelt=false;
 
-const inputs=document.querySelectorAll('input');
-console.log(inputs);
+// character=20;  char cant be Number
+character='mario';
 
-inputs.forEach(input=>{
-    console.log(input);
-    
-});
- 
+// age='youshi'; age cant be string
+age=40;
+
+// isBlackbelt='yes'; isBlackbelt cant be string
+
+isBlackbelt=true;
+
+const circ=(diameter:number) =>{
+    return diameter*Math.PI;
+}
+// console.log(circ('hello')); cant be string = diameter: number
+console.log(circ(7.5)); 
