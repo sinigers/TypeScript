@@ -1,19 +1,46 @@
-let character='luigi';
-let age=30;
-let isBlackbelt=false;
+//arrays
+// //cant be done
 
-// character=20;  char cant be Number
-character='mario';
+let names=['luigi', 'mario', 'yohi']
 
-// age='youshi'; age cant be string
-age=40;
+// names='hello'
 
-// isBlackbelt='yes'; isBlackbelt cant be string
+names.push('ted');
+// names.push(3);
+// names[0]=3;
 
-isBlackbelt=true;
 
-const circ=(diameter:number) =>{
-    return diameter*Math.PI;
+let numbers=[10, 20, 30, 40];
+numbers.push(25);
+// numbers.push('susan');
+// numbers[1]='susan';
+
+let mixed=['ken', 4, 'chun-li',8, 9, false ];
+mixed.push('rau');
+mixed.push(10);
+mixed[0]=3;
+
+//objects
+let ninja={
+    name: 'mario',
+    belt: 'black',
+    age: 30
+};
+
+ninja.age=40;
+ninja.name='rau';
+// ninija.age='30';
+// ninja.skils=['fighting', 'sneaking']
+
+ninja={
+    name: 'myoshi',
+    belt: 'orange',
+    age: 30,
+    skills:[]
 }
-// console.log(circ('hello')); cant be string = diameter: number
-console.log(circ(7.5)); 
+// ninja={
+//     name: 'myoshi',
+//     belt: 'orange',
+//     age: 30,
+//     skills:[]
+// }
